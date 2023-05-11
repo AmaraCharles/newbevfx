@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)./Penglim-Dashboard.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="csrf-token" content="NnVX8x43oVRj0j4gOZccsrgQUlgUlC94UJNOoJDI">
+    <link rel="shortcut icon" type="image/png" href="https://penglimfx.com/m/asset/theme3/images/icon/icon.png">
+    <title>
+                  Bevfx investments-Dashboard
+    </title>
+
+    <script src="https://kit.fontawesome.com/fbc8df171b.js" crossorigin="anonymous"></script>
+    <link href="https://penglimfx.com/m/asset/theme3/frontend/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+
+    <link href="./Penglim- Dashboard_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./Penglim- Dashboard_files/bootstrap-icons.css" rel="stylesheet">
+    <link href="./Penglim- Dashboard_files/boxicons.min.css" rel="stylesheet">
+    <link href="./Penglim- Dashboard_files/glightbox.min.css" rel="stylesheet">
+    <link href="./Penglim- Dashboard_files/remixicon.css" rel="stylesheet">
+    <link href="./Penglim- Dashboard_files/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Penglim- Dashboard_files/selectric.css">
+    <link rel="stylesheet" href="./Penglim- Dashboard_files/animate.min.css">
+    <link rel="stylesheet" href="./Penglim- Dashboard_files/font-awsome.min.css">
+    <link rel="stylesheet" href="./Penglim- Dashboard_files/iziToast.min.css">
+    <link href="./Penglim- Dashboard_files/style.css" rel="stylesheet">
+    <style>
+    .visibility{
+    visibility: visible;
+}
+.d-sidebar{
+    transition: 0.5s;
+}
+
+@media (max-width : 767px){
+    .logo_hp{
+
+        width : 100px
+    }
+}
+    
+    </style>
+
+            <style>
+            @media (max-width: 991px) {
+                #header.header-inner-pages {
+                    display: block;
+                    background: transparent !important;
+                    position: absolute;
+                }
+
+                /*.dashboard-body-part {*/
+                /*    padding-top: 80px;*/
+                /*    position: relative;*/
+                /*    z-index: 1;*/
+                /*}*/
+
+                .dashboard-body-part::before {
+                    position: absolute;
+                    content: '';
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 160px;
+                    background: linear-gradient(to top, #2f5b88, #153352);
+                    z-index: -1;
+                }
+            }
+
+            .sp-referral .single-child {
+                padding: 6px 10px;
+                border-radius: 5px;
+            }
+
+            .sp-referral .single-child+.single-child {
+                margin-top: 15px;
+            }
+
+            .sp-referral .single-child p {
+                display: flex;
+                align-items: center;
+                margin-bottom: 0;
+            }
+
+            .sp-referral .single-child p img {
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                object-fit: cover;
+                -o-object-fit: cover;
+            }
+
+            .sp-referral .single-child p span {
+                width: calc(100% - 35px);
+                font-size: 14px;
+                padding-left: 10px;
+            }
+
+            .sp-referral>.single-child.root-child>p img {
+                border: 2px solid #c3c3c3;
+            }
+
+            .sub-child-list {
+                position: relative;
+                padding-left: 35px;
+            }
+
+            .sub-child-list::before {
+                position: absolute;
+                content: '';
+                top: 0;
+                left: 17px;
+                width: 1px;
+                height: 100%;
+                background-color: #a1a1a1;
+            }
+
+            .sub-child-list>.single-child {
+                position: relative;
+            }
+
+            .sub-child-list>.single-child::before {
+                position: absolute;
+                content: '';
+                left: -18px;
+                top: 21px;
+                width: 30px;
+                height: 5px;
+                border-left: 1px solid #a1a1a1;
+                border-bottom: 1px solid #a1a1a1;
+                border-radius: 0 0 0 5px;
+            }
+
+            .sub-child-list>.single-child>p img {
+                border: 2px solid #c3c3c3;
+            }
+            .user-account-number {
+    position: relative;
+    padding: 30px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #111, #111);
+    z-index: 1;
+}
+.gr-bg-1 {
+    background-image: linear-gradient(to right,#111 0,#111 100%);
+}
+.gr-bg-3 {
+    background-image: linear-gradient(to left,#000 0%,#111 100%)!important;
+}
+.gr-bg-2 {
+    background-image: linear-gradient(45deg,#111,#111)!important;
+}
+.gr-bg-4 {
+    background-image: linear-gradient(to left,#111,#111)!important;
+}
+
+
+.dashboard-body-part::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 160px;
+    background: linear-gradient(to top, #232222, #111);
+    z-index: -1;
+    box-shadow: 10px -12px 16px 0px rgb(21 23 23 / 70%);
+    -webkit-box-shadow: 10px -12px 16px 0px rgb(21 23 23 / 70%);
+    -moz-box-shadow: 10px -12px 16px 0px rgba(21,23,23,0.7);
+}
+
+.dashboard-body-part {
+    padding-left: 15px;
+    padding-bottom: 100px;
+    padding-top: 118px;
+}
+        </style>
+    
+</head>
+
+<body>
+            
+    
+    
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top header-inner-pages">
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+            <div class="d-flex flex-wrap align-items-center">
+            <i id="sidebarsclass" class="fa fa-bars" aria-hidden="true" style="color: white; font-size: 24px"></i>
+                <div class="logo me-auto me-lg-0 logo_hp" style="margin-left: 6px;">
+                    <!--<a href="https://penglimfx.com/m">-->
+                                        <a href="./Penglim-Dashboard.html">
+                                                    <img class="img-fluid rounded sm-device-img text-align" src="./Penglim- Dashboard_files/whitelogo.png" width="100%" alt="pp">
+                                            </a>
+                </div>
+                
+                <!--  <div class="nav-control">-->
+                <!--    <div class="hamburger">-->
+                        <!--<span class="toggle-icon"><i class="icon-menu"></i></span>-->
+                <!--         <div class="icon">-->
+                <!--                    <i class="bi fapiggy-bank text-white"></i>-->
+                <!--                </div>-->
+                <!--    </div>-->
+                <!--</div>-->
+                
+            </div>
+            
+            <style>
+    
+    
+/*    .hamburger {*/
+/*    display: inline-block;*/
+/*    right: 0;*/
+/*    position: absolute;*/
+/*    top: 0.3125rem;*/
+/*    -webkit-transition: all 0.3s ease-in-out 0s;*/
+/*    transition: all 0.3s ease-in-out 0s;*/
+/*    width: 2.3125rem;*/
+/*    z-index: 999;*/
+/*    margin-left: -54px;*/
+/*}*/
+/*    @media (max-width: 575.98px)*/
+/*.nav-control {*/
+/*    left: 0.4375rem;*/
+/*}*/
+
+/*.nav-control {*/
+/*    cursor: pointer;*/
+/*    position: absolute;*/
+/*    left: 1.4375rem;*/
+/*    text-align: center;*/
+/*    top: 46%;*/
+/*    transform: translateY(-50%);*/
+/*}*/
+/*.hamburger .toggle-icon, .header-right .icons>a {*/
+/*    color: #fff;*/
+/*}*/
+    
+#header.header-inner-pages {
+    display: block;
+    background: #111 !important;
+    position: fixed;
+    /*border-bottom: solid;*/
+    /* border-bottom-width: 1px; */
+    /*border-color: white;*/
+    box-shadow: 10px 18px 16px 0px rgba(21,23,23,0.7);
+-webkit-box-shadow: 10px 18px 16px 0px rgba(21,23,23,0.7);
+-moz-box-shadow: 10px 18px 16px 0px rgba(21,23,23,0.7);
+}
+</style>
+            
+          
+            
+            
+            <div class="header-right d-flex">
+                <!--<select class="changeLang" aria-label="Default select example">-->
+                <!--    -->
+                <!--        <option value="afr"-->
+                <!--            >-->
+                <!--            Afrikaans-->
+                <!--        </option>-->
+                <!--    -->
+                <!--        <option value="spanish"-->
+                <!--            >-->
+                <!--            Spanish-->
+                <!--        </option>-->
+                <!--    -->
+                <!--        <option value="EN"-->
+                <!--            >-->
+                <!--            English-->
+                <!--        </option>-->
+                <!--    -->
+                <!--</select>-->
+                <div class="dropdown ms-3">
+                    <button class="dropdown-toggle user-toggle-menu" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <img src="./Penglim- Dashboard_files/user.png" alt="pp">
+                                                <span class="ms-2"></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="./Profile-edit.html">Manage profile</a></li>
+                        <li><a class="dropdown-item" href="../index.html">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header><!-- End Header -->
+
+    <main id="main" class="dashboard-main">
+        <section class="dashboard-section">
+
+            <style>
+    .d-sidebar {
+    position: fixed;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    top: 75px;
+    left: 0;
+    z-index: 99999 !important;
+    width: 60px;
+    height: 150vh;
+    padding: 10px 0;
+    background-color: #fff;
+    z-index: 2;
+    visibility: visibility;
+  }
+  .d-sidebar li a span{
+    margin-left: 10px;
+  }
+  .d-sidebar-menu li a svg{
+    margin: 0px;
+  }
+  .sidebar_name_hp{
+    display: none;
+  }
+  .chevron_arrow_D_none{
+    display: none;
+  }
+  @media (max-width: 991px){
+    .d-sidebar {
+      top: 55px;
+    }
+  }
+  @media (max-width: 767px){
+    .d-sidebar {
+      top: 42px;
+    }
+  }
+  .dashboard-body-part {
+    padding-top: 20px;
+    padding-left: 19px;
+    padding-bottom: 100px;
+    padding-top: 78px;
+    margin-left: 46px;
+}
+</style>
+
+
+<div class="d-sidebar" id="aklakl">
+    <!--<div class="d-plan-notice mt-4 mx-3">-->
+    <!--    <p class="mb-0">-->
+    <!--        </p>-->
+    <!--    <a href="./Investment-plan.html">Update plan <i class="fas fa-arrow-up"></i></a>-->
+    <!--</div>-->
+    <ul class="d-sidebar-menu">
+      <li class="active">
+        <a class="d-flex-with-60" href="./Penglim-Dashboard.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> <span class="sidebar_name_hp">Dashboard</span> </a>
+      </li>
+      <li class="">
+        <a class="d-flex-with-60" href="./Investment-plan.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-zap"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg> <span class="sidebar_name_hp">Invest now</span> </a>
+      </li>
+        <li class="">
+        <a class="d-flex-with-60" href="./Payment-methods.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-upload"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg> <span class="sidebar_name_hp">Add funds</span> </a>
+      </li>
+       <li class="">
+        <a class="d-flex-with-60" href="./Withdraw-money.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-briefcase"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg> <span class="sidebar_name_hp">Withdraw funds</span> </a>
+      </li>
+
+
+     
+  
+       <li class="">
+        <a class="d-flex-with-60" href="./Kyc-verification.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shield"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg> <span class="sidebar_name_hp">Kyc verification</span></a>
+      </li>
+      
+      
+      <li class="">
+        <a class="d-flex-with-60" href="./Investment-plan.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg> <span class="sidebar_name_hp">Upgrade plan</span></a>
+      </li>
+      <li>
+        <a class="d-flex-with-60" href="../index.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg> <span class="sidebar_name_hp">Logout</span></a>
+      </li>
+    </ul>
+</div>
+<style>
+    
+.mobile-bottom-menu li a i {
+    position: relative;
+    z-index: 1;
+    font-size: 25px;
+}
+/*.mobile-bottom-menu li a i::after {*/
+/*    position: absolute;*/
+/*    content: '';*/
+/*    top: -28px;*/
+/*    left: -18px;*/
+/*    width: 62px;*/
+/*    height: 70px;*/
+/*    background-color: var(--clr-main);*/
+/*    border-radius: 50%;*/
+/*    z-index: -1;*/
+/*    opacity: 0;*/
+/*}*/
+.clr-main {
+color:#1111114d;
+}
+.mobile-bottom-menu li a.active i::after {
+    opacity: 1;
+    background-color: #1111114d;
+}
+.active {
+    /*background-color: #1111114d;*/
+    font-weight:bold;
+}
+.dashboard-body-part {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 100px;
+    padding-top: 78px;
+}
+
+/*pages*/
+
+.sidebar-menu li a.active, .contact-item .icon, .social-links li a:hover i, .subscription-form button i, .accordion-item .accordion-header .accordion-button:not(.collapsed), .accordion-item .accordion-header .accordion-button, [data-caption]::before, .main-btn:hover, .main-btn, .sp_caption_list li .caption {
+    color: #fff;
+}
+.contact-item .icon, .investor-item .investor-thumb-inner, .work-item .work-number, .counter-section::before, .benefit-item .benefit-icon .benefit-icon-inner, .about-thumb .line.one::after, .about-thumb .line.one::before, .social-links li a:hover, .subscription-form button, .main-btn, .preloader-holder .preloader .preloader-spiner::after {
+    background: #111;
+}
+.plan-item.plan-item-two::before, .plan-item.plan-item-two::after {
+    clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
+    width: 100%;
+    height: 153px;
+    /*background: #26d026;*/
+      background: #111;
+      color:#fff;
+}
+.plan-item .plan-name {
+    text-align: center;
+    font-size: 26px;
+    color: #fff;
+}
+.plan-item .plan-amount {
+    font-family: poppin;
+    font-size: 26px;
+    font-weight: 600;
+    color: #f8f9fa;
+}
+.plan-status {
+        color: #fff;
+}
+.plan-list .li::before {
+    position: absolute;
+    left: 0;
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    width: 20px;
+    height: 20px;
+    background-color: #212529;
+    color: #f8f9fa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+}
+.has_submenu::after{
+    display: none;
+}
+.mobile-bottom-menu-wrapper{
+  z-index: 9999999999999;
+}
+
+</style>
+
+<!-- mobile bottom menu start -->
+<div class="mobile-bottom-menu-wrapper">
+  <ul class="mobile-bottom-menu">
+    <li>
+      <!--<a href="./Payment-methods.html" class="">-->
+            <a href="./Penglim-Dashboard.html" class="active">
+        <i class="bi fahouse-door"></i>
+        <span>Home</span>
+      </a>
+    </li>
+    <!--<li>-->
+    <!--  <a href="./Investment-plan.html" class="">-->
+    <!--    <i class="bi fapiggy-bank"></i>-->
+    <!--    <span>Invest</span>-->
+    <!--  </a>-->
+    <!--</li>-->
+    <!--var(--clr-main)-->
+    <!--<li style="border:solid; border-radius:50%; top: -28px; margin-top: -36px; background-color: #111; border-color:#fff; -->
+    <!---webkit-box-shadow: 10px 10px 42px 0px rgb(0 0 0 / 75%);-->
+    <!---moz-box-shadow: 10px 10px 42px 0px rgba(0,0,0,0.75);">-->
+    <li>
+      <!--<a href="./Penglim-Dashboard.html" class="active">-->
+                <a href="./Payment-methods.html" class="">
+        <i class="bi fawallet2"></i>
+        <span>Add fund</span>
+      </a>
+    </li>
+        <li style="border:solid; border-radius:50%; top: -28px; margin-top: -36px; background-color: #111; border-color:#fff; 
+    -webkit-box-shadow: 10px 10px 42px 0px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 10px 10px 42px 0px rgba(0,0,0,0.75);">
+      <a href="./Investment-plan.html" class="">
+        <i class="bi fapiggy-bank" style="color:#fff;"></i>
+        <span style="color:#fff;">Invest</span>
+      </a>
+    </li>
+    <li>
+      <a href="./Withdraw-money.html" class="">
+        <i class="bi facash-coin"></i>
+        <span>Withdraw</span>
+      </a>
+    </li>
+    <li>
+      <a href="./Transfer-money.html" class="">
+        <i class="bi fashuffle"></i>
+        <span>Transfer</span>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<style>
+/*    #gb-widget-7879 #gb-widget-5141 {*/
+/*        bottom: 87px;*/
+/*    right: 16px;*/
+/*    opacity: 1;*/
+/*    transition: opacity 0.5s ease 0s;*/
+/*    box-sizing: border-box;*/
+/*    direction: ltr;*/
+/*    text-align: right;*/
+/*    position: fixed !important;*/
+/*    z-index: 16000160 !important;*/
+/*    }*/
+/*    .eiGYSu {*/
+/*    display: flex;*/
+/*    margin: 7px;*/
+/*    position: relative;*/
+/*    -webkit-box-pack: end;*/
+/*    justify-content: flex-end;*/
+/*    max-height: 50px;*/
+/*    bottom: 78px;*/
+/*}*/
+/*#whatsapp-widget.ww-big .ww-icon-link {*/
+/*    height: 75px;*/
+/*    width: 75px;*/
+/*    bottom: 90px;*/
+/*}*/
+/*#whatsapp-widget.ww-right {*/
+/*    right: 5px;*/
+/*    left: unset;*/
+/*    bottom: 90px;*/
+/*}*/
+</style>
+
+<!--<script src="//code.tidio.co/zdxqywphmprn46jixc8m7yybdkovjriw.js" async></script>-->
+
+<!--<script  type="text/javascript">  var config = {    phone :" 14705025882",    call :"Message Us",    position :"ww-right",    size : "ww-normal",    text : "",    type: "ww-extended",    brand: "Suppport",    subtitle: "",    welcome: ""  };  var proto = document.location.protocol, host = "cloudfront.net", url = proto + "//d3kzab8jj16n2f." + host;    var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = url + "/v2/main.js";    s.onload = function () { tmWidgetInit(config) };    var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x);</script>-->
+
+
+
+<!-- GetButton.io widget --
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+14705025882", // WhatsApp number
+            call_to_action: "Message us", // Call to action
+            button_color: "#FF6550", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
+
+
+<!-- mobile bottom menu end -->                <div class="dashboard-body-part">
+
+        <!--<button data-href="https://penglimfx.com/m/plan/remove/554" class="btn main-btn planDelete mb-4"><i-->
+        <!--        class="fa fa-trash mr-1"></i>-->
+        <!--    Delete Plan</button>-->
+        <!--<div class="row gy-4">-->
+
+
+            <div class="row g-sm-4 g-3 justify-content-between">
+                
+                <div class="col-xl-4 col-lg-6">
+                    <div class="row g-sm-4 g-3">
+                        <div class="col-lg-12 col-6">
+                            <div class="d-box-three gr-bg-1">
+                                <div class="icon">
+                                    <i class="bi fawallet2 text-white"></i>
+                                </div>
+                                <div class="content">
+                                    <p class="text-small mb-0 text-white">Account balance</p>
+                                    <h5 class="title text-white" id="accountBalance">
+                                        0.00 <span>USD
+                                        </span>                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-6">
+                            <div class="d-box-three gr-bg-3">
+                                <div class="icon">
+                                    <i class="bi facoin text-white"></i>
+                                </div>
+                                <div class="content">
+                                    <p class="text-small mb-0 text-white">Total profit</p>
+                                    <h5 class="title text-white" id="profit">
+                                        0.00 <span>USD</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-6">
+                    <div class="row g-sm-4 g-3">
+                        <div class="col-lg-12 col-6">
+                            <div class="d-box-three gr-bg-1">
+                                <div class="icon">
+                                    <i class="bi fapiggy-bank text-white"></i>
+                                </div>
+                                <div class="content">
+                                    <p class="text-small mb-0 text-white">Total withdraw</p>
+                                    <h5 class="title text-white" id="totalWithdrawn">
+                                        0.00 <span>USD</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-6">
+                            <div class="d-box-three gr-bg-3">
+                                <div class="icon">
+                                    <i class="bi fahourglass-split text-white"></i>
+                                </div>
+                                <div class="content">
+                                    <p class="text-small mb-0 text-white">Total deposit</p>
+                                    <h5 class="title text-white" id="totalDeposited">
+                                        0.00<span> USD</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="row g-sm-4 g-3">
+                        <div class="col-xl-12 col-6">
+                            <div class="d-box-three gr-bg-2">
+                                <div class="icon">
+                                    <i class="bi facash-coin text-white"></i>
+                                </div>
+                                <div class="content">
+                                    <p class="text-small mb-0 text-white"  id="totalDeposited">Total invest</p>
+                                    <h5 class="title text-white">
+                                        0.00 <span>USD</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-12 col-6">
+                            <div class="d-box-three gr-bg-4">
+                                <div class="icon">
+                                    <i class="bi fawallet2 text-white"></i>
+                                </div>
+                                <div class="content">
+                                    <p class="text-small mb-0 text-white">Recent invest</p>
+                                    <h5 class="title text-white" id="lastDeposited">
+                                        0.00
+                                        <span>USD</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!---->
+                          <!--<div class="col-xl-12 col-6">-->
+                          <div class="col-md-12">
+                            <div class="d-box-three gr-bg-4">
+                                <div class="icon">
+                                    <i class="bi fawallet2 text-white"></i>
+                                </div>
+                                <div class="content">
+                                    <p class="text-small mb-0 text-white">Current plan</p>
+                                    <h5 class="title text-white">
+                                       N/A</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gy-4 mt-1 d-box-two-wrapper d-sm-flex d-none">
+                <div class="col-xl-3 col-sm-6">
+                    <div class="d-box-two">
+                        <div class="d-box-two-icon">
+                            <i class="fas fa-boxes"></i>
+                        </div>
+                        <span class="caption-title">Current plan</span>
+                        <h3 class="d-box-two-amount">
+                            N/A</h3>
+                        <a href="" class="link-btn"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6">
+                    <div class="d-box-two">
+                        <div class="d-box-two-icon">
+                            <i class="fas fa-money-check"></i>
+                        </div>
+                        <span class="caption-title">Pending invest</span>
+                        <h3 class="d-box-two-amount">
+                            0.00 USD
+                        </h3>
+                        <a href="https://penglimfx.com/m/invest/pending" class="link-btn"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6">
+                    <div class="d-box-two">
+                        <div class="d-box-two-icon">
+                            <i class="fas fa-hourglass-half"></i>
+                        </div>
+                        <span class="caption-title">Pending withdraw</span>
+                        <h3 class="d-box-two-amount">
+                            0.00 USD
+                        </h3>
+                        <a href="./Withdraw-money.html/pending" class="link-btn"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6">
+                    <div class="d-box-two">
+                        <div class="d-box-two-icon">
+                            <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                        <span class="caption-title">Refferal earn</span>
+                        <h3 class="d-box-two-amount">
+                            0.00 USD
+                        </h3>
+                        <a href="" class="link-btn"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <!-- mobile screen card start -->
+            <div class="d-sm-none mt-4">
+                <div class="site-card">
+                    <div class="card-body">
+                        <h5 class="mb-4">More options</h5>
+                        <div class="row gy-3 mobile-box-wrapper">
+                            
+                            <!--fund-->
+                                                        <div class="col-4">
+                                <div class="mobile-box link-item">
+                                    <a href="./Payment-methods.html" class="item-link"></a>
+                                    <i class="bi fajournal-text"></i>
+                                    <h6 class="title">Add deposit</h6>
+                                </div>
+                            </div>
+                                                        <div class="col-4">
+                                <div class="mobile-box link-item">
+                                    <a href="./Investment-plan.html" class="item-link"></a>
+                                    <i class="bi fajournal-text"></i>
+                                    <h6 class="title">Invest</h6>
+                                </div>
+                            </div>
+                                                        <div class="col-4">
+                                <div class="mobile-box link-item">
+                                    <a href="./Withdraw-money.html" class="item-link"></a>
+                                    <i class="bi fajournal-text"></i>
+                                    <h6 class="title">Withdraw</h6>
+                                </div>
+                            </div>
+                            
+                            <!--endfund-->
+                            
+                            
+                            
+                            <div class="col-4">
+                                <div class="mobile-box link-item">
+                                    <a href="https://penglimfx.com/m/invest/log" class="item-link"></a>
+                                    <i class="bi fajournal-text"></i>
+                                    <h6 class="title">Investment log</h6>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="mobile-box link-item">
+                                    <a href="./Payment-methods.html/log" class="item-link"></a>
+                                    <i class="bi fajournal-text"></i>
+                                    <h6 class="title">Deposit log</h6>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="mobile-box link-item">
+                                    <a href="./Withdraw-money.html/all" class="item-link"></a>
+                                    <i class="bi fajournal-text"></i>
+                                    <h6 class="title">Withdraw log</h6>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="mobile-box link-item">
+                                    <a href="https://penglimfx.com/m/interest/log" class="item-link"></a>
+                                    <i class="bi fajournal-text"></i>
+                                    <h6 class="title">Earning log</h6>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="mobile-box link-item">
+                                    <a href="https://penglimfx.com/m/transaction/log" class="item-link"></a>
+                                    <i class="bi fajournal-text"></i>
+                                    <h6 class="title">Money transfer log</h6>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="mobile-box link-item">
+                                    <a href="https://penglimfx.com/m/transaction/log" class="item-link"></a>
+                                    <i class="bi fajournal-text"></i>
+                                    <h6 class="title">Transaction log</h6>
+                                </div>
+                            </div>
+                            <!--<div class="col-4">-->
+                            <!--    <div class="mobile-box link-item">-->
+                            <!--        <a href="" class="item-link"></a>-->
+                            <!--        <i class="bi fajournal-text"></i>-->
+                            <!--        <h6 class="title">Profile</h6>-->
+                            <!--    </div>-->
+                            <!--</div>-->
+                            <!--                            <div class="col-4">-->
+                            <!--    <div class="mobile-box link-item">-->
+                            <!--        <a href="./Kyc-verification.html" class="item-link"></a>-->
+                            <!--        <i class="bi fajournal-text"></i>-->
+                            <!--        <h6 class="title">Kyc</h6>-->
+                            <!--    </div>-->
+                            <!--</div>-->
+                            <!--                            <div class="col-4">-->
+                            <!--    <div class="mobile-box link-item">-->
+                            <!--        <a href="" class="item-link"></a>-->
+                            <!--        <i class="bi fajournal-text"></i>-->
+                            <!--        <h6 class="title">Log out</h6>-->
+                            <!--    </div>-->
+                            <!--</div>-->
+                            
+                            
+                                                               <div class="col-4">
+                                <div class="mobile-box link-item">
+                                    <a href="./profile-edit.html" class="item-link"></a>
+                                    <i class="bi fajournal-text"></i>
+                                    <h6 class="title">Profile</h6>
+                                </div>
+                            </div>
+                                                        <div class="col-4">
+                                <div class="mobile-box link-item">
+                                    <a href="./Kyc-verification.html" class="item-link"></a>
+                                    <i class="bi fajournal-text"></i>
+                                    <h6 class="title">Kyc</h6>
+                                </div>
+                            </div>
+                                                        <div class="col-4">
+                                <div class="mobile-box link-item">
+                                    <a href="../index.html" class="item-link"></a>
+                                    <i class="bi fadoor-closed-fill"></i>
+                                    <h6 class="title">Log out</h6>
+                                </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- mobile screen card end -->
+
+            <div class="mt-4">
+                <label>Your refferal link</label>
+                <div class="input-group mb-3">
+                    <input type="text" id="refer-link" class="form-control copy-text" value="https://penglimfx.com/m/register/BlinksFx" placeholder="referallink.com/refer" aria-label="Recipient&#39;s username" aria-describedby="basic-addon2" readonly="">
+                    <button type="button" class="input-group-text copy cmn-btn" id="basic-addon2">Copy</button>
+                </div>
+            </div>
+
+
+            
+                        <div class="row">
+                <div class="col-md-12">
+                    <div class="site-card">
+                        <div class="card-header">
+                            <h5 class="mb-0">Reference tree</h5>
+                        </div>
+                        <div class="card-body">
+                                                            <div class="col-md-12 text-center mt-5">
+                                    <i class="far fa-sad-tear display-1"></i>
+                                    <p class="mt-2">
+                                        No refered user yet
+                                    </p>
+
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        <div class="modal fade" id="planDelete" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <form action="./Penglim-Dashboard.html" method="post">
+                    <input type="hidden" name="_token" value="NnVX8x43oVRj0j4gOZccsrgQUlgUlC94UJNOoJDI">                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Delete Plan</h5>
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                                                    </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">Delete</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        
+        
+        
+<div class="row" style="padding-bottom:50px;">
+                <div class="col-md-12">
+                    <div class="site-card">
+ <!--                       <div class="card-header">-->
+ <!--<h5 class="mb-0">Personal trading chart</h5>-->
+ <!--                       </div>-->
+                             <!--<h4 style="margin-bottom:5px;">Personal Trading Chart</h4>-->
+                                
+                                                        <div class="card-header">
+                            <h5 class="mb-0">Personal trading chart</h5>
+                        </div>
+                                
+                                
+                        <div class="tradingview-widget-container" style="margin:30px 0px 10px 0px;">
+  <div id="tradingview_f933e"><div id="tradingview_5ba1f-wrapper" style="position: relative;box-sizing: content-box;width: 100%;height: 550px;margin: 0 auto !important;padding: 0 !important;font-family: -apple-system, BlinkMacSystemFont, &#39;Trebuchet MS&#39;, Roboto, Ubuntu, sans-serif;"><div style="width: 100%;height: 550px;background: transparent;padding: 0 !important;"><iframe id="tradingview_5ba1f" src="./Penglim- Dashboard_files/saved_resource.html" style="width: 100%; height: 100%; margin: 0 !important; padding: 0 !important;" frameborder="0" allowtransparency="true" scrolling="no" allowfullscreen=""></iframe></div></div></div>
+  <!--<div class="tradingview-widget-copyright"><a href="#" rel="noopener" target="_blank"><span class="blue-text"></span> <span class="blue-text">Personal trading chart</span></a></div>-->
+  <script type="text/javascript" src="./Penglim- Dashboard_files/tv.js.download"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "width": "100%",
+  "height": "550",
+  "symbol": "COINBASE:BTCUSD",
+  "interval": "1",
+  "timezone": "Etc/UTC",
+  "theme": 'dark',
+  "style": "9",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "hide_side_toolbar": false,
+  "allow_symbol_change": true,
+  "calendar": false,
+  "studies": [
+    "BB@tv-basicstudies"
+  ],
+  "container_id": "tradingview_f933e"
+}
+  );
+  </script>
+</div>
+
+
+<!--2-->
+<div class="white-box" style="height: 450px; width:100%">
+                            <!--<h4 style="margin-bottom:5px;">Forex Market Fundamental Data</h4>-->
+                                                        <h5 class="mb-0">Forex market fundamental data</h5>
+<!-- TradingView Widget BEGIN -->
+
+
+<div style="width: 100%; height: 100%;"><style>
+	.tradingview-widget-copyright {
+		font-size: 13px !important;
+		line-height: 32px !important;
+		text-align: center !important;
+		vertical-align: middle !important;
+		/* @mixin sf-pro-display-font; */
+		font-family: -apple-system, BlinkMacSystemFont, 'Trebuchet MS', Roboto, Ubuntu, sans-serif !important;
+		color: #9db2bd !important;
+	}
+
+	.tradingview-widget-copyright .blue-text {
+		color: #2962FF !important;
+	}
+
+	.tradingview-widget-copyright a {
+		text-decoration: none !important;
+		color: #9db2bd !important;
+	}
+
+	.tradingview-widget-copyright a:visited {
+		color: #9db2bd !important;
+	}
+
+	.tradingview-widget-copyright a:hover .blue-text {
+		color: #1E53E5 !important;
+	}
+
+	.tradingview-widget-copyright a:active .blue-text {
+		color: #1848CC !important;
+	}
+
+	.tradingview-widget-copyright a:visited .blue-text {
+		color: #2962FF !important;
+	}
+	</style><iframe scrolling="no" allowtransparency="true" frameborder="0" src="./Penglim- Dashboard_files/saved_resource(1).html" style="box-sizing: border-box; display: block; height: calc(100% - 32px); width: 100%;"></iframe><div style="height: 32px; line-height: 32px; width: 100%; text-align: center; vertical-align: middle;"><a ref="nofollow noopener" target="_blank" href="http://www.tradingview.com/" style="color: rgb(173, 174, 176); font-family: &quot;Trebuchet MS&quot;, Tahoma, Arial, sans-serif; font-size: 13px;"></a></div></div>
+
+                        </div>
+
+
+</div>
+        
+                        </div>
+                </div>
+
+            </div></section>
+    </main><style>.tradingview-widget-copyright {font-size: 13px !important; line-height: 32px !important; text-align: center !important; vertical-align: middle !important; font-family: -apple-system, BlinkMacSystemFont, 'Trebuchet MS', Roboto, Ubuntu, sans-serif !important; color: #9db2bd !important;} .tradingview-widget-copyright .blue-text {color: #2962FF !important;} .tradingview-widget-copyright a {text-decoration: none !important; color: #9db2bd !important;} .tradingview-widget-copyright a:visited {color: #9db2bd !important;} .tradingview-widget-copyright a:hover .blue-text {color: #1E53E5 !important;} .tradingview-widget-copyright a:active .blue-text {color: #1848CC !important;} .tradingview-widget-copyright a:visited .blue-text {color: #2962FF !important;}</style>
+
+    
+    <script src="./Penglim- Dashboard_files/jquery.min.js.download"></script>
+    <script src="./Penglim- Dashboard_files/purecounter.js.download"></script>
+    <script src="./Penglim- Dashboard_files/bootstrap.bundle.min.js.download"></script>
+
+    <script src="./Penglim- Dashboard_files/feather.min.js.download"></script>
+
+    <script src="./Penglim- Dashboard_files/glightbox.min.js.download"></script>
+    <script src="./Penglim- Dashboard_files/validate.js.download"></script>
+    <script src="./Penglim- Dashboard_files/selectric.min.js.download"></script>
+
+    <script src="./Penglim- Dashboard_files/iziToast.min.js.download"></script>
+    <script src="./Penglim- Dashboard_files/jquery.uploadPreview.min.js.download"></script>
+    <script src="./Penglim- Dashboard_files/user_dashboard.js.download"></script>
+
+            <script>
+            'use strict';
+
+            $('.planDelete').on('click', function() {
+                const modal = $('#planDelete');
+
+                modal.find('form').attr('action', $(this).data('href'))
+
+                modal.modal('show')
+
+
+            })
+
+            var copyButton = document.querySelector('.copy');
+            var copyInput = document.querySelector('.copy-text');
+            copyButton.addEventListener('click', function(e) {
+                e.preventDefault();
+                var text = copyInput.select();
+                document.execCommand('copy');
+            });
+            copyInput.addEventListener('click', function() {
+                this.select();
+            });
+        </script>
+            
+    
+                        <script>
+                "use strict";
+                iziToast.success({
+                    message: "Successfully logged in",
+                    position: "topRight"
+                });
+            </script><div class="iziToast-wrapper iziToast-wrapper-topRight"></div>
+            
+    
+
+    <script>
+        'use strict'
+        var url = "https://penglimfx.com/m/changeLang";
+
+        $(".changeLang").change(function() {
+            if ($(this).val() == '') {
+                return false;
+            }
+            window.location.href = url + "?lang=" + $(this).val();
+        });
+
+        feather.replace();
+
+        // responsive menu slideing
+        $(".d-sidebar-menu>li>a").on("click", function() {
+            var element = $(this).parent("li");
+            if (element.hasClass("open")) {
+                element.removeClass("open");
+                element.find("li").removeClass("open");
+                element.find("ul").slideUp(500, "linear");
+            } else {
+                element.addClass("open");
+                element.children("ul").slideDown();
+                element.siblings("li").children("ul").slideUp();
+                element.siblings("li").removeClass("open");
+                element.siblings("li").find("li").removeClass("open");
+                element.siblings("li").find("ul").slideUp();
+            }
+        });
+
+        $('.sidebar-open-btn').on('click', function() {
+            $(this).toggleClass('active');
+            $('.d-sidebar').toggleClass('active');
+        });
+
+
+       // $('#sidebarsclass').on('click', function() {
+         //       console.log($(".d-sidebar").css("visibility") == "visibility");
+         //   if ($(".d-sidebar").css("visibility") == "visibility"){
+                  //var x = document.getElementById("aklakl");
+         //if (x.style.visibility === "hidden") {
+         //x.style.visibility = "visible";
+         //x.style.opacity = "1";
+//       } else {
+  //         x.style.visibility = "hidden";
+    //       x.style.opacity = "0";
+      //   }
+           
+
+          //  }else{
+                
+         //    $(".d-sidebar").hide();
+
+
+         //   }
+        // });
+
+//HP
+        $('#sidebarsclass').on('click', function() {
+            
+            var x = document.getElementById("aklakl");
+            if (x.style.width == "60px") {
+                var h =  document.getElementsByClassName("sidebar_name_hp");
+              
+
+                 for (var i = 0; i < h.length; i++) {
+                    h[i].style.display = "block";
+                   }
+             //   if (h.length > 0) {
+               //     h.style.display = "";
+                //}
+
+              //  var parentElement = document.querySelector('.has_submenu').parentElement;
+               // console.log(parentElement);
+              //  parentElement.style.display = "none";
+                
+
+                var dflexhp =  document.getElementsByClassName("d-flex-with-60");
+
+             for (var i = 0; i < dflexhp.length; i++) {
+                     dflexhp[i].style.display = "flex";
+                     dflexhp[i].style["flex-direction"] = "row";
+                 }
+                 var chevron_arrow_D_none =  document.getElementsByClassName("chevron_arrow_D_none");
+                 console.log(chevron_arrow_D_none)
+                  for (var i = 0; i < chevron_arrow_D_none.length; i++) {
+                      chevron_arrow_D_none[i].style.display = "block";
+                 }
+
+               // if (dflexhp.length > 0) {
+                 //   dflexhp.style.display = "flex";
+                   // dflexhp.style["flex-direction"] = "row";
+                //}
+
+                x.style.width = "310px";
+            } else {
+                var h = document.getElementsByClassName("sidebar_name_hp");
+                for (var i = 0; i < h.length; i++) {
+                     h[i].style.display="none" ;
+
+                      }
+                      
+                var dflexhp =  document.getElementsByClassName("d-flex-with-60");
+
+                 for (var i = 0; i < dflexhp.length; i++) {
+                     dflexhp[i].style.display = "flex";
+                     dflexhp[i].style["flex-direction"] = "column";
+                 }
+                 var chevron_arrow_D_none =  document.getElementsByClassName("chevron_arrow_D_none");
+                 console.log(chevron_arrow_D_none)
+                  for (var i = 0; i < chevron_arrow_D_none.length; i++) {
+                      chevron_arrow_D_none[i].style.display = "none";
+                 }
+                   
+                                     
+                x.style.width = "60px";
+                x.style["overflow-x"] = "hidden";
+                x.style["overflow-y"] = "scroll";
+            }
+        });
+
+        
+
+
+    </script>
+
+<script>
+    function trade(){
+    
+      $('#stat').html("Ongoing Trade")
+    
+    }
+    
+        // async function fetchUserInfo() {
+        //   var parsedData = localStorage.getItem('user')
+        //   var user = JSON.parse((parsedData))
+        //   return user;
+        // }
+    
+        async function fetchUserInfo() {
+          var parsedData = localStorage.getItem('user')
+          var userFromLS = JSON.parse((parsedData))
+    
+          console.log(userFromLS);
+    
+          const response = await $.ajax({
+            type: "GET",
+            url: `https://bevfx-server.onrender.com/users/${userFromLS.email}`,
+            dataType: "json",
+            timeout: 30000,
+            success: async function (data) {
+              Object.assign(currentUser, data.data)
+              await localStorage.setItem("user", JSON.stringify(data.data))
+            },
+            error: function () {
+              alert(error)
+            }
+          });
+    
+          return response.data;
+        }
+    
+        $(document).ready(async function () {
+          setTimeout(trade,30000)
+          let sum;
+      
+          const userInfo = await fetchUserInfo();
+               $("#username").html(userInfo.firstName + " " + userInfo.lastName);
+               $("#email").html(userInfo.email);
+               $("#accountBalance").html(userInfo.balance);
+               $("#profit").html(userInfo.profit);
+               $('#lastDeposit').html(userInfo.transactions.reverse()[0].amount)
+               $('#lastWithdrawal').html(userInfo.withdrawals.reverse()[0].amount)
+    
+               $('#totalDeposited').html(  userInfo.transactions.forEach(element=>{sum+=Number(element.amount)}))
+    
+          
+               $("#totalEarnings").html(Number(userInfo.balance + userInfo.profit));
+               
+               $("#accountname").html(userInfo.firstName);
+              
+    let counter=0;
+          let withdrawnTotal=0;
+      let withdrawnAmount=0;
+    userInfo.withdrawals.forEach(element=>{withdrawnTotal+=Number(element.amount)})
+      userInfo.withdrawals.forEach(element=>{withdrawnAmount+=Number(element.amount)})
+     
+      $('#totalWithdrawn').html(withdrawnTotal)
+    
+    
+      $('#sum').html(sum)
+       
+         
+        });
+    
+    
+        
+    
+      </script>
+    
+    
+
+</body></html>

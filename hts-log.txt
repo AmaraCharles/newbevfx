@@ -1,0 +1,110 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 29 Apr 2023 14:17:51 at https://dinerofin.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+dinerofin
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://penglimfx.com -O1 "C:\My Web Sites\blinks" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+
+
+Information, Warnings and Errors reported for this mirror:
+
+note:	the hts-log.txt file, and hts-cache folder, mdinerofinn sensitive information,dinerofin
+dinerofindinerofin
+	such as username/password authentication for websites mirrored in this projectdinerofin
+dinerofindinerofin
+	do not share these files/folders if you want these information to remain privatedinerofindinerofin
+dinerofindinerofin
+dinerofindinerofin
+dinerofindinerofin
+14:21:50	Error: 	"Not Found" (404) at link https://dinerofin.com/m/account/register (from https://penglimfx.com/)dinerofin
+dinerofindinerofin
+14:21:50	Error: 	"Not Found" (404) at link https://dinerofin.com/m/account/login (from https://penglimfx.com/)dinerofin
+dinerofindinerofin
+14:21:50	Warning: 	Retry after error -5 (error:00dinerofinb(0):func(0):reason(1)) at link https://code.tidio.co:443/rovpeh1mwixfpp012nersx0swj4mxhxi.js (from https://penglimfx.com/)
+dinerofindinerofin
+14:21:50	Warning: 	Retry after error -4 (No data dinerofinon closed)) at link https://penglimfx.com/wp-content/plugins/bdthemes-element-pack/assets/css/ep-animated-heading.css?ver=6.5.0 (from https://penglimfx.com/)
+dinerofindinerofin
+14:21:50	Warning: 	Retry after error -4 (No data dinerofinon closed)) at link https://penglimfx.com/wp-content/uploads/elementor/css/post-4600.css?ver=1681819501 (from https://penglimfx.com/)
+dinerofindinerofin
+14:22:09	Error: 	"Not Found" (404) at link https:dinerofinfx.com/wp-content/plugins/bdthemes-element-pack/images/backgrounds/divider-icon.svg (from https://penglimfx.com/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css?ver=3.15.1)
+dinerofindinerofin
+14:22:09	Error: 	"Not Found" (404) at link https:dinerofinfx.com/wp-content/plugins/bdthemes-element-pack/images/backgrounds/list-bullet.svg (from https://penglimfx.com/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css?ver=3.15.1)
+dinerofindinerofin
+14:22:09	Error: 	"Not Found" (404) at link https:dinerofinfx.com/wp-content/plugins/bdthemes-element-pack/assets/images/backgrounds/form-select.svg (from https://penglimfx.com/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css?ver=3.15.1)
+dinerofindinerofin
+14:22:09	Error: 	"Not Found" (404) at link https:dinerofinfx.com/wp-content/plugins/bdthemes-element-pack/images/backgrounds/form-datalist.svg (from https://penglimfx.com/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css?ver=3.15.1)
+dinerofindinerofin
+14:22:09	Error: 	"Not Found" (404) at link https:dinerofinfx.com/wp-content/plugins/bdthemes-element-pack/assets/images/backgrounds/form-radio.svg (from https://penglimfx.com/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css?ver=3.15.1)
+dinerofindinerofin
+14:22:09	Error: 	"Not Found" (404) at link https://dinerofin.com/wp-content/plugins/bddinerofinement-pack/assets/images/backgrounds/form-checkbox.svg (from https://penglimfx.com/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css?ver=3.15.1)
+dinerofin
+14:22:09	Error: 	"Not Found" (404) at link https://dinerofin.com/wp-content/plugins/bdthemes-element-pack/adinerofinges/backgrounds/form-checkbox-indeterminate.svg (from https://penglimfx.com/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css?ver=3.15.1)
+dinerofindinerofin
+14:22:16	Warning: 	Moved Permanently for https://pedinerofinom/?p=2632dinerofin
+dinerofindinerofin
+14:22:16	Warning: 	File has moved from https://pengdinerofin/?p=2632 to https://penglimfx.comdinerofinp/trading-platforms/
+dinerofindinerofin
+14:22:16	Warning: 	Moved Permanently for https://pedinerofinom/?p=2517dinerofin
+dinerofindinerofin
+14:22:16	Warning: 	File has moved from https://pengdinerofin/?p=2517 to https://penglimfx.com/index.php/trading-products/dinerofin
+dinerofindinerofin
+14:22:16	Warning: 	Moved Permanently for https://pedinerofinom/?p=2610dinerofin
+dinerofindinerofin
+14:22:16	Warning: 	File has moved from https://pengdinerofin/?p=2610 to https://penglimfx.com/index.php/margin-leverage/dinerofin
+dinerofin
+14:22:16	Warning: 	Moved Permanently for https://penglimfx.com/?p=2577
+
+14:22:16	Warning: 	File has moved from https://penglimfx.com/?p=2577 to https://penglimfx.com/index.php/trading-conditions/
+
+14:22:16	Warning: 	Moved Permanently for https://penglimfx.com/?p=2775
+
+14:22:16	Warning: 	File has moved from https://penglimfx.com/?p=2775 to https://penglimfx.com/index.php/contact-us/
+
+14:22:16	Warning: 	Moved Permanently for https://penglimfx.com/?p=2785
+
+14:22:16	Warning: 	File has moved from https://penglimfx.com/?p=2785 to https://penglimfx.com/index.php/faq/
+
+14:22:16	Warning: 	Moved Permanently for https://penglimfx.com/?p=2804
+
+14:22:16	Warning: 	File has moved from https://penglimfx.com/?p=2804 to https://penglimfx.com/index.php/safety-2/
+
+14:22:20	Warning: 	Moved Permanently for https://penglimfx.com/?p=2855
+
+14:22:20	Warning: 	File has moved from https://penglimfx.com/?p=2855 to https://penglimfx.com/index.php/about/
+
+14:22:51	Error: 	"Not Found" (404) at link https://penglimfx.com/https: (from https://penglimfx.com/m/login)
+
+14:22:52	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://code.tidio.co:443/rovpeh1mwixfpp012nersx0swj4mxhxi.js (from https://penglimfx.com/)
+
+14:22:52	Error: 	"Not Found" (404) at link https://penglimfx.com/+window.ms_grabbing_curosr+ (from https://penglimfx.com/wp-content/plugins/masterslider/public/assets/js/masterslider.min.js?ver=3.6.5)
+
+14:22:52	Error: 	"Not Found" (404) at link https://penglimfx.com/+window.ms_grab_curosr+ (from https://penglimfx.com/wp-content/plugins/masterslider/public/assets/js/masterslider.min.js?ver=3.6.5)
+
+14:22:52	Error: 	"Not Found" (404) at link https://penglimfx.com/GET (from https://penglimfx.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17)
+
+14:22:52	Error: 	"Not Found" (404) at link https://penglimfx.com/t (from https://penglimfx.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.7.5.1)
+
+14:22:52	Error: 	"Not Found" (404) at link https://penglimfx.com/-negative.svg (from https://penglimfx.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.12.1)
+
+14:22:52	Error: 	"Not Found" (404) at link https://penglimfx.com/OPR/ (from https://penglimfx.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.12.1)
+
+14:26:21	Error: 	"Not Found" (404) at link https://penglimfx.com/m/asset/dashboard/assets/images/big/img6.jpg (from https://penglimfx.com/m/asset/dashboard/newUI/css/style.css)
+
+14:26:21	Error: 	"Not Found" (404) at link https://penglimfx.com/m/asset/dashboard/assets/images/big/comming-soon-bg.png (from https://penglimfx.com/m/asset/dashboard/newUI/css/style.css)
+
+14:26:21	Error: 	"Not Found" (404) at link https://penglimfx.com/m/asset/dashboard/assets/images/background/password-bg.jpg (from https://penglimfx.com/m/asset/dashboard/newUI/css/style.css)
+
+14:26:21	Error: 	"Not Found" (404) at link https://penglimfx.com/m/asset/dashboard/assets/images/background/register-bg.jpg (from https://penglimfx.com/m/asset/dashboard/newUI/css/style.css)
+
+14:26:21	Error: 	"Not Found" (404) at link https://penglimfx.com/m/asset/dashboard/assets/images/background/login-register2.jpg (from https://penglimfx.com/m/asset/dashboard/newUI/css/style.css)
+
+14:26:21	Error: 	"Not Found" (404) at link https://penglimfx.com/m/asset/dashboard/assets/images/background/login-bg.jpg (from https://penglimfx.com/m/asset/dashboard/newUI/css/style.css)
+
+14:26:21	Error: 	"Not Found" (404) at link https://penglimfx.com/m/asset/dashboard/assets/images/background/user-lock-bg.jpg (from https://penglimfx.com/m/asset/dashboard/newUI/css/style.css)
+
+14:26:21	Error: 	"error:00000001:lib(0):func(0):reason(1)" (-5) after 2 retries at link https://code.tidio.co:443/rovpeh1mwixfpp012nersx0swj4mxhxi.js (from https://penglimfx.com/)
+
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 minutes 7 seconds : 698 links scanned, 661 files written (50983929 bytes overall) [25528902 bytes received at 46670 bytes/sec], 41385834 bytes transferred using HTTP compression in 532 files, ratio 32%, 9.6 requests per connection
+
+(24 errors, 20 warnings, 0 messages)
+
